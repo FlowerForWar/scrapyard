@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name          Menu Test Helper
-// @description   I watch for right click events and save links URLS into the sessionStorage
+// @name          tampermonkey-contex-menu-helper
+// @description   I watch for right click events and save last clicked link URL into the sessionStorage
 // @version       0.0.1
 // @match         *://*/*
 // @run-at        start

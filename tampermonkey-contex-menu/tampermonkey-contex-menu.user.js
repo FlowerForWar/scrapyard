@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name          Menu Test
-// @description   I alert `clicked-link-url` that is saved in the sessionStorage
+// @name          tampermonkey-contex-menu
+// @description   I alert `clicked-link-url` that is saved inside the sessionStorage
 // @version       0.0.1
 // @match         *://*/*
 // @run-at        context-menu
