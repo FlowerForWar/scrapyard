@@ -10,7 +10,7 @@ function rightClickHandler({ target }) {
   sessionStorage.removeItem('clicked-link-url');
   const closestLink = target.closest('a')?.href;
   if (closestLink) {
-    console.log(`This the closest link to the clicked element: ${closestLink}`);
+    // console.log(`This the closest link to the clicked element: ${closestLink}`);
     sessionStorage.setItem('clicked-link-url', closestLink);
   }
 }
